@@ -121,7 +121,7 @@ class MultiModalSubModularExplanation(object):
             sub_index_sets.append(
                 np.concatenate((main_set, np.array([candidate_]))).astype(int))
        
-        # merge images / 组合图像
+        # merge images
         sub_images = torch.stack([
             self.preproccessing_function(
                 self.merge_image(sub_index_set, partition_image_set)
