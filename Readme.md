@@ -32,4 +32,8 @@ jupyter notebook
 ```
 Áp dụng phương pháp này cho mô hình ViT (Vision Transformer) trong file [submodular-clip-vitl](visual/submodular-clip-vitl.ipynb)
 
+Kết nối file trên với server `Jupyter` để thực thi code
+
 *Chú ý:* Sửa `image_path`, `download_root` theo đường dẫn trên máy tính tránh lỗi
+
+### Kết quả
